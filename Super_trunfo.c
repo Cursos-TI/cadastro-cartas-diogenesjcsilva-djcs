@@ -33,9 +33,11 @@ scanf(%d,&num_pontostur01);
 // exibe os dados da carta 01 inserida
 
 printf("estado: %c/n", estado01);
-printf("código da carta:%d/n", estado01 & codigo_carta01)
+printf("código da carta:%s/n", estado01 & codigo_carta01)
 printf("cidade: %s/n", nome_cidade01);
-printf("habitantes: %d/n", populacao01);
+printf("habitantes: %.2f/n", populacao01);
+printf("area total: %.2f/n", area_cidade01);
+printf("pib: %.2f/n", pib_cidade01);
+printf("pontos turísticos: %d/n", num_pontostur01);
 
-
-
+retorno 0
